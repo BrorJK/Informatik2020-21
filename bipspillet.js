@@ -2,14 +2,8 @@ var scene = 0;
 let runner;
 let correct;
 let wrong;
-let rewind;
 let click;
 let vroom;
-let red;
-let yellow;
-let blue;
-let white;
-let green;
 
 function skift(k) {
   scene = k;
@@ -24,14 +18,8 @@ function preload() {
   runner = loadImage("løbstick.png");
   correct = loadSound("correct.wav");
   wrong = loadSound("wrong.wav");
-  rewind = loadSound("rewind.wav");
   click = loadSound("click.mp3");
   vroom = loadSound("vroom.wav");
-  red = loadSound("red.wav");
-  yellow = loadSound("yellow.wav");
-  blue = loadSound("blue.wav");
-  white = loadSound("white.wav");
-  green = loadSound("green.wav");
 }
 
 function setup() {
